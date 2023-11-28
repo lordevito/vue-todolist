@@ -1,0 +1,25 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Utility */
+.text-line{
+    text-decoration: line-through;
+  }
+/* Content */
+.container {
+    margin: 0 auto;
+}
+.container ul {
+    list-style-type: none;
+}
+.container ul li{
+    padding: 10px 0px;
+    margin: 2px 0px;
+    border: 1px dashed lightskyblue;
+}
+.fa-circle-xmark {
+    cursor: pointer;
+}
